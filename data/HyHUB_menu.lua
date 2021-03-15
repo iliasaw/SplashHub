@@ -56,9 +56,9 @@ Title.BackgroundColor3 = Color3.new(1, 1, 1)
 Title.BackgroundTransparency = 1
 Title.BorderSizePixel = 0
 Title.Position = UDim2.new(-0.10, 0, -0.06, 0)
-Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Size = UDim2.new(0, 230, 0, 50)
 Title.Font = Enum.Font.SciFi
-Title.Text = "HyHUB Menu"
+Title.Text = "SplashHub Menu"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextSize = 20
 
@@ -154,10 +154,12 @@ GameName.BorderSizePixel = 0
 GameName.Position = UDim2.new(0.338183641, 0, 0.0498136654, 0)
 GameName.Size = UDim2.new(0, 288, 0, 50)
 GameName.Font = Enum.Font.SciFi
-if game.PlaceId == 6304340354 then
-    GameName.Text = "ROWpuREd's Place"
+if game.PlaceId == 5051378706 then
+    GameName.Text = "Test Place"
 elseif game.PlaceId == 6305942109 then
     GameName.Text = "Laundry Simulator"
+elseif game.PlaceId == 698448212 then
+    GameName.Text = "RoBeats"
 elseif game.PlaceId == 286090429 then
     GameName.Text = "Arsenal"
 else
@@ -272,6 +274,6 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.217200011, 0, -0.0839999393, 0)
 TextLabel.Size = UDim2.new(0, 48, 0, 50)
 TextLabel.Font = Enum.Font.SciFi
-TextLabel.Text = "HyHUB"
+TextLabel.Text = "SplashHub"
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextSize = 14
