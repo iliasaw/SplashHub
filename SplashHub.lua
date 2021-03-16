@@ -4,6 +4,7 @@ local Start = Instance.new("TextButton")
 local VersionGUI = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
+local Krnl = KRNL_LOADED and true or false
 
 ScreenGui.Parent = game.CoreGui
 
@@ -24,8 +25,12 @@ Start.Text = "Start"
 Start.TextColor3 = Color3.new(0, 0, 0)
 Start.TextSize = 14
 Start.MouseButton1Down:connect(function()
+	if Krnl then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/HyHUB_menu.lua",true))()
+	else
+	game.Players.LocalPlayer:Kick("ONLY KRNL")
     Frame.Visible = false
+    end
 end)
 
 
