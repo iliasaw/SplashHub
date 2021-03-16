@@ -158,6 +158,8 @@ if game.PlaceId == 5051378706 then
     GameName.Text = "Test Place"
 elseif game.PlaceId == 6305942109 then
     GameName.Text = "Laundry Simulator"
+elseif game.PlaceId == 606849621 then
+    GameName.Text = "JailBreak"
 elseif game.PlaceId == 698448212 then
     GameName.Text = "RoBeats"
 elseif game.PlaceId == 286090429 then
