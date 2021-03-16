@@ -70,9 +70,12 @@ Soon2.Position = UDim2.new(-0.00560572743, 0, 0.84608376, 0)
 Soon2.Size = UDim2.new(0, 200, 0, 50)
 Soon2.Style = Enum.ButtonStyle.RobloxRoundButton
 Soon2.Font = Enum.Font.SciFi
-Soon2.Text = "Comming Soon..."
+Soon2.Text = "Fly Press E"
 Soon2.TextColor3 = Color3.new(0, 0, 0)
 Soon2.TextSize = 14
+Soon2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ianm5AAq",true))()
+end)
 
 --Game scripts BUTTON
 GameScripts.Name = "GameScripts"
@@ -82,7 +85,7 @@ GameScripts.Position = UDim2.new(-0.00560572743, 0, 0.446684361, 0)
 GameScripts.Size = UDim2.new(0, 200, 0, 50)
 GameScripts.Style = Enum.ButtonStyle.RobloxRoundButton
 GameScripts.Font = Enum.Font.SciFi
-GameScripts.Text = "Game Scripts"
+GameScripts.Text = "Game Script"
 GameScripts.TextColor3 = Color3.new(0, 0, 0)
 GameScripts.TextSize = 14
 GameScripts.MouseButton1Down:connect(function()
@@ -97,12 +100,11 @@ Tools.Position = UDim2.new(0.574902773, 0, 0.440678358, 0)
 Tools.Size = UDim2.new(0, 200, 0, 50)
 Tools.Style = Enum.ButtonStyle.RobloxRoundButton
 Tools.Font = Enum.Font.SciFi
-Tools.Text = "Tools"
+Tools.Text = "Alt Delete"
 Tools.TextColor3 = Color3.new(0, 0, 0)
 Tools.TextSize = 14
 Tools.MouseButton1Down:connect(function()
-	--SCRIPT HERE!!!
-	warn("Not done yet!!!")
+	loadstring(game:HttpGet("https://pastebin.com/raw/DThr62Cn",true))()
 end)
 
 --AntiCheatByPasses BUTTON
@@ -113,12 +115,11 @@ AntiCheatByPasses.Position = UDim2.new(-0.00560572743, 0, 0.64488256, 0)
 AntiCheatByPasses.Size = UDim2.new(0, 200, 0, 50)
 AntiCheatByPasses.Style = Enum.ButtonStyle.RobloxRoundButton
 AntiCheatByPasses.Font = Enum.Font.SciFi
-AntiCheatByPasses.Text = "Anti-Cheat By-Passes"
+AntiCheatByPasses.Text = "Ctrl+TP"
 AntiCheatByPasses.TextColor3 = Color3.new(0, 0, 0)
 AntiCheatByPasses.TextSize = 14
 AntiCheatByPasses.MouseButton1Down:connect(function()
-	--SCRIPT HERE!!!
-	warn("Not done yet!!!")
+	loadstring(game:HttpGet("https://pastebin.com/raw/BSHwUSkP",true))()
 end)
 
 --Soon BUTTON
@@ -129,7 +130,7 @@ Soon1.Position = UDim2.new(0.574902773, 0, 0.64488256, 0)
 Soon1.Size = UDim2.new(0, 200, 0, 50)
 Soon1.Style = Enum.ButtonStyle.RobloxRoundButton
 Soon1.Font = Enum.Font.SciFi
-Soon1.Text = "Comming Soon..."
+Soon1.Text = "Comming Soon...2"
 Soon1.TextColor3 = Color3.new(0, 0, 0)
 Soon1.TextSize = 14
 
@@ -141,7 +142,7 @@ Soon3.Position = UDim2.new(0.574902833, 0, 0.84608376, 0)
 Soon3.Size = UDim2.new(0, 200, 0, 50)
 Soon3.Style = Enum.ButtonStyle.RobloxRoundButton
 Soon3.Font = Enum.Font.SciFi
-Soon3.Text = "Comming Soon..."
+Soon3.Text = "Comming Soon...3"
 Soon3.TextColor3 = Color3.new(0, 0, 0)
 Soon3.TextSize = 14
 
