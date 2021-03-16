@@ -24,7 +24,7 @@ Start.Text = "Start"
 Start.TextColor3 = Color3.new(0, 0, 0)
 Start.TextSize = 14
 Start.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Hysonax/HyHUB/main/data/HyHUB_menu.lua",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/HyHUB_menu.lua",true))()
     Frame.Visible = false
 end)
 
