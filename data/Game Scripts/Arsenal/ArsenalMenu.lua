@@ -42,11 +42,11 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(-0.0507764816, 0, -0.0981526002, 0)
 Title.Size = UDim2.new(0, 266, 0, 50)
 Title.Font = Enum.Font.SciFi
-Title.Text = "HyHUB - Arsenal scripts"
+Title.Text = "SplashHub - Arsenal scripts"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextSize = 24
 
-AbPlusEsp.Name = "AbPlusEsp"
+AbPlusEsp.Name = "Universal"
 AbPlusEsp.Parent = Frame
 AbPlusEsp.BackgroundColor3 = Color3.new(1, 1, 1)
 AbPlusEsp.Position = UDim2.new(0.00213327259, 0, 0.20593369, 0)
@@ -88,14 +88,14 @@ AltText.TextColor3 = Color3.new(1, 1, 1)
 AltText.TextSize = 14
 AltText.TextXAlignment = Enum.TextXAlignment.Left
 
-HitBoxExtender.Name = "HitBoxExtender"
+HitBoxExtender.Name = "Owl Hub"
 HitBoxExtender.Parent = Frame
 HitBoxExtender.BackgroundColor3 = Color3.new(1, 1, 1)
 HitBoxExtender.Position = UDim2.new(0.00213327259, 0, 0.576834261, 0)
 HitBoxExtender.Size = UDim2.new(0, 118, 0, 48)
 HitBoxExtender.Style = Enum.ButtonStyle.RobloxRoundButton
 HitBoxExtender.Font = Enum.Font.SciFi
-HitBoxExtender.Text = "Hit Box Extender"
+HitBoxExtender.Text = "Owl Hub"
 HitBoxExtender.TextColor3 = Color3.new(0, 0, 0)
 HitBoxExtender.TextSize = 14
 AbPlusEsp.MouseButton1Down:connect(function()
