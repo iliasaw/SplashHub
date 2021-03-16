@@ -25,10 +25,7 @@ Start.Text = "Start"
 Start.TextColor3 = Color3.new(0, 0, 0)
 Start.TextSize = 14
 Start.MouseButton1Down:connect(function()
-	if Krnl then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/HyHUB_menu.lua",true))()
-	else
-	game.Players.LocalPlayer:Kick("ONLY KRNL")
     Frame.Visible = false
     end
 end)
