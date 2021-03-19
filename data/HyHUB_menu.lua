@@ -130,9 +130,12 @@ Soon1.Position = UDim2.new(0.574902773, 0, 0.64488256, 0)
 Soon1.Size = UDim2.new(0, 200, 0, 50)
 Soon1.Style = Enum.ButtonStyle.RobloxRoundButton
 Soon1.Font = Enum.Font.SciFi
-Soon1.Text = "Comming Soon...2"
+Soon1.Text = "Infinity Jump"
 Soon1.TextColor3 = Color3.new(0, 0, 0)
 Soon1.TextSize = 14
+Soon1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pDy1Ru0J",true))()
+end)
 
 --Soon BUTTON
 Soon3.Name = "Soon3"
@@ -142,9 +145,12 @@ Soon3.Position = UDim2.new(0.574902833, 0, 0.84608376, 0)
 Soon3.Size = UDim2.new(0, 200, 0, 50)
 Soon3.Style = Enum.ButtonStyle.RobloxRoundButton
 Soon3.Font = Enum.Font.SciFi
-Soon3.Text = "Comming Soon...3"
+Soon3.Text = "Noclip"
 Soon3.TextColor3 = Color3.new(0, 0, 0)
 Soon3.TextSize = 14
+Soon3.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/geEc9DaP",true))()
+end)
 
 --Game NAME
 GameName.Name = "GameName"
