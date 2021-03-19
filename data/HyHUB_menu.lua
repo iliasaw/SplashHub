@@ -155,7 +155,7 @@ GameName.BorderSizePixel = 0
 GameName.Position = UDim2.new(0.338183641, 0, 0.0498136654, 0)
 GameName.Size = UDim2.new(0, 288, 0, 50)
 GameName.Font = Enum.Font.SciFi
-if game.PlaceId == 5051378706 then
+if game.PlaceId == 4578565419 then
     GameName.Text = "Test Place"
 elseif game.PlaceId == 6305942109 then
     GameName.Text = "Laundry Simulator"
