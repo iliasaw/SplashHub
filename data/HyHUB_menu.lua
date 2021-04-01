@@ -22,13 +22,15 @@ local section2 = page:addSection("Universal")
 section1:addButton("Game Script", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/GameIDChack.lua",true))()
 end)
-section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats"}, function(text)
+section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats", "Bubble Gum Simulator"}, function(text)
 	if text == "Arsenal" then
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Arsenal/ArsenalMenu.lua",true))()
-    elseif text == "RoBeats" then
+	elseif text == "RoBeats" then
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/notclosure/new-years/main/happ.lua"))()
 	elseif text == "JailBreak" then
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/JailBreak/Gui.lua"))()
+	elseif text == "Bubble Gum Simulator" then
+    	loadstring(game:HttpGet(("http://roguefamily.com/script/streleziaBGSbeta/script"),true))()
     end
 end)
 
