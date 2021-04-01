@@ -36,7 +36,7 @@ section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats", "Bubble Gum 
 	elseif text == "SCP: Roleplay" then
     	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DezentLua/Scripts.LUA/main/SCP%3A%20Roleplay%20Gun%20Mods"),true))()
 	elseif text == "Project Lazarus" then
-    	loadstring(game:HttpGet(("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Project%20Lazarus/ArsenalMenu.lua"),true))()
+    	loadstring(game:HttpGet("https://pastebin.com/raw/EhKw8zKp",true))()
     end
 end)
 
