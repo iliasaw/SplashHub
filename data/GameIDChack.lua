@@ -8,5 +8,7 @@ elseif game.PlaceId == 2512643572 then
     loadstring(game:HttpGet(("http://roguefamily.com/script/streleziaBGSbeta/script"),true))()
 elseif game.PlaceId == 4716045691 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Polybattle/Polybattle.lua"),true))()
+elseif game.PlaceId == 5041144419 then
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/DezentLua/Scripts.LUA/main/SCP%3A%20Roleplay%20Gun%20Mods"),true))()
 else warn("Unknown game!!!")
 end
