@@ -6,5 +6,7 @@ elseif game.PlaceId == 606849621 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/JailBreak/Gui.lua"))()
 elseif game.PlaceId == 2512643572 then
     loadstring(game:HttpGet(("http://roguefamily.com/script/streleziaBGSbeta/script"),true))()
+elseif game.PlaceId == 4716045691 then
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Polybattle/Polybattle.lua"),true))()
 else warn("Unknown game!!!")
 end
