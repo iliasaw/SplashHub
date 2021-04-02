@@ -12,5 +12,7 @@ elseif game.PlaceId == 5041144419 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/DezentLua/Scripts.LUA/main/SCP%3A%20Roleplay%20Gun%20Mods"),true))()
 elseif game.PlaceId == 443406476 then
     loadstring(game:HttpGet("https://pastebin.com/raw/EhKw8zKp",true))()
+elseif game.PlaceId == 13822889 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/KUSNQ4NL",true))()
 else warn("Unknown game!!!")
 end
