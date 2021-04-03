@@ -22,7 +22,7 @@ local section2 = page:addSection("Universal")
 section1:addButton("Game Script", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/GameIDChack.lua",true))()
 end)
-section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats", "Bubble Gum Simulator", "Polybattle", "SCP: Roleplay", "Project Lazarus", "Lumber Tycoon 2", "Mad Paintball 2"}, function(text)
+section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats", "Bubble Gum Simulator", "Polybattle", "SCP: Roleplay", "Project Lazarus", "Lumber Tycoon 2", "Mad Paintball 2", "Super Power Training Simulator"}, function(text)
 	if text == "Arsenal" then
     	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Arsenal/ArsenalMenu.lua",true))()
 	elseif text == "RoBeats" then
@@ -41,6 +41,8 @@ section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats", "Bubble Gum 
     	loadstring(game:HttpGet("https://pastebin.com/raw/KUSNQ4NL",true))()
 	elseif text == "Mad Paintball 2" then
     	loadstring(game:HttpGet("https://pastebin.com/raw/4Fth3L2K",true))()
+	elseif text == "Super Power Training Simulator" then
+    	loadstring(game:HttpGet("https://pastebin.com/raw/Tg4e1NEy",true))()
     end
 end)
 
