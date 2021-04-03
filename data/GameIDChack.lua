@@ -16,5 +16,7 @@ elseif game.PlaceId == 13822889 then
     loadstring(game:HttpGet("https://pastebin.com/raw/KUSNQ4NL",true))()
 elseif game.PlaceId == 289565045 then
     loadstring(game:HttpGet("https://pastebin.com/raw/4Fth3L2K",true))()
+elseif game.PlaceId == 2202352383 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/Tg4e1NEy",true))()
 else warn("Unknown game!!!")
 end
