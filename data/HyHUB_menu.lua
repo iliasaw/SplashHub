@@ -10,7 +10,7 @@ section1:Button("Game Scripts",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/GameIDChack.lua",true))()
 end)
 
-section1:Dropdown("Scripts",{"Arsenal", "Blood Moon Tycoon", "Bubble Gum Simulator", "JailBreak", "Lumber Tycoon 2", "Mad Paintball 2", "Project Lazarus", "Polybattle", "RoBeats", "SCP: Roleplay", "Super Power Training Simulator"},function(text)
+section1:Dropdown("Scripts",{"Ace Of Spadez", "Arsenal", "Blood Moon Tycoon", "Bubble Gum Simulator", "JailBreak", "Lumber Tycoon 2", "Mad Paintball 2", "Project Lazarus", "Polybattle", "RoBeats", "SCP: Roleplay", "Super Power Training Simulator"},function(text)
 	if text == "Arsenal" then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Arsenal/ArsenalMenu.lua",true))()
 	elseif text == "RoBeats" then
@@ -33,6 +33,8 @@ section1:Dropdown("Scripts",{"Arsenal", "Blood Moon Tycoon", "Bubble Gum Simulat
 		loadstring(game:HttpGet("https://pastebin.com/raw/Tg4e1NEy",true))()
 	elseif text == "Blood Moon Tycoon" then
 		loadstring(game:HttpGet("https://pastebin.com/raw/xjTHrvs2",true))()
+	elseif text == "Ace Of Spadez" then
+		loadstring(game:HttpGet("https://pastebin.com/raw/YffiupxC",true))()
 	end
 end)
 
