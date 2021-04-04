@@ -1,88 +1,57 @@
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
--- init
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("SplashHub", 5013109572)
+local window = VLib:Window("SPLASH HUB", "MAIN", "S")
 
--- themes
-local themes = {
-	Background = Color3.fromRGB(24, 24, 24),
-	Glow = Color3.fromRGB(0, 0, 0),
-	Accent = Color3.fromRGB(10, 10, 10),
-	LightContrast = Color3.fromRGB(20, 20, 20),
-	DarkContrast = Color3.fromRGB(14, 14, 14),  
-	TextColor = Color3.fromRGB(255, 255, 255)
-}
-
--- first page
-local page = venyx:addPage("Scripts", 5012544693)
-local section1 = page:addSection("Game Scripts")
-local section2 = page:addSection("Universal")
+local section1 = window:Tab("Game Scripts")
+local section2 = window:Tab("Universal")
 
 
-section1:addButton("Game Script", function()
+section1:Button("Game Scripts",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/GameIDChack.lua",true))()
 end)
-section1:addDropdown("Scripts", {"Arsenal", "JailBreak", "RoBeats", "Bubble Gum Simulator", "Polybattle", "SCP: Roleplay", "Project Lazarus", "Lumber Tycoon 2", "Mad Paintball 2", "Super Power Training Simulator"}, function(text)
+
+section1:Dropdown("Scripts",{"Arsenal", "JailBreak", "RoBeats", "Bubble Gum Simulator", "Polybattle", "SCP: Roleplay", "Project Lazarus", "Lumber Tycoon 2", "Mad Paintball 2", "Super Power Training Simulator", "Blood Moon Tycoon"},function(text)
 	if text == "Arsenal" then
-    	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Arsenal/ArsenalMenu.lua",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Arsenal/ArsenalMenu.lua",true))()
 	elseif text == "RoBeats" then
-    	loadstring(game:HttpGet("https://raw.githubusercontent.com/notclosure/new-years/main/happ.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/notclosure/new-years/main/happ.lua"))()
 	elseif text == "JailBreak" then
-    	loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/JailBreak/Gui.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/JailBreak/Gui.lua"))()
 	elseif text == "Bubble Gum Simulator" then
-    	loadstring(game:HttpGet(("http://roguefamily.com/script/streleziaBGSbeta/script"),true))()
+		loadstring(game:HttpGet(("http://roguefamily.com/script/streleziaBGSbeta/script"),true))()
 	elseif text == "Polybattle" then
-    	loadstring(game:HttpGet(("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Polybattle/Polybattle.lua"),true))()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/iliasaw/SplashHub/main/data/Game%20Scripts/Polybattle/Polybattle.lua"),true))()
 	elseif text == "SCP: Roleplay" then
-    	loadstring(game:HttpGet(("https://raw.githubusercontent.com/DezentLua/Scripts.LUA/main/SCP%3A%20Roleplay%20Gun%20Mods"),true))()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/DezentLua/Scripts.LUA/main/SCP%3A%20Roleplay%20Gun%20Mods"),true))()
 	elseif text == "Project Lazarus" then
-    	loadstring(game:HttpGet("https://pastebin.com/raw/EhKw8zKp",true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/EhKw8zKp",true))()
 	elseif text == "Lumber Tycoon 2" then
-    	loadstring(game:HttpGet("https://pastebin.com/raw/KUSNQ4NL",true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/KUSNQ4NL",true))()
 	elseif text == "Mad Paintball 2" then
-    	loadstring(game:HttpGet("https://pastebin.com/raw/4Fth3L2K",true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/4Fth3L2K",true))()
 	elseif text == "Super Power Training Simulator" then
-    	loadstring(game:HttpGet("https://pastebin.com/raw/Tg4e1NEy",true))()
-    end
+		loadstring(game:HttpGet("https://pastebin.com/raw/Tg4e1NEy",true))()
+	elseif text == "Blood Moon Tycoon" then
+		loadstring(game:HttpGet("https://pastebin.com/raw/xjTHrvs2",true))()
+	end
 end)
 
-
-
-section2:addSlider("WalkSpeed", 0, 16, 500, function(value)
+section2:Slider("WalkSpeed",16,500,16,function(value)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)
-section2:addButton("Alt Delete", function()
+
+section2:Button("Alt Delete", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/DThr62Cn",true))()
 end)
-section2:addButton("Ctrl+TP", function()
+section2:Button("Ctrl+TP", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/BSHwUSkP",true))()
 end)
-section2:addButton("Infinity Jump", function()
+section2:Button("Infinity Jump", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/pDy1Ru0J",true))()
 end)
-section2:addButton("Fly Press F", function()
+section2:Button("Fly Press F", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/bpy2Eny6",true))()
 end)
-section2:addButton("Noclip", function()
+section2:Button("Noclip", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/geEc9DaP",true))()
 end)
-
-
--- second page
-local theme = venyx:addPage("Others", 5012544693)
-local colors = theme:addSection("Settings")
-
-colors:addKeybind("Toggle Keybind", Enum.KeyCode.RightControl, function()
-	venyx:toggle()
-end, function()
-end)
-
-for theme, color in pairs(themes) do -- all in one theme changer, i know, im cool
-	colors:addColorPicker(theme, color, function(color3)
-		venyx:setTheme(theme, color3)
-	end)
-end
-venyx:Notify("SplashHub", "loaded")
-
--- load
-venyx:SelectPage(venyx.pages[1], true)
