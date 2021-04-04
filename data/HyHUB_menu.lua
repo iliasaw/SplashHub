@@ -40,6 +40,10 @@ section2:Slider("WalkSpeed",16,500,16,function(value)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)
 
+section2:Slider("JumpPower",48,300,48,function(value)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
+end)
+
 section2:Button("Alt Delete", function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/DThr62Cn",true))()
 end)
