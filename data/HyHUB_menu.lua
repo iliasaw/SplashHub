@@ -40,11 +40,11 @@ section1:Dropdown("Scripts",{"Ace Of Spadez", "Arsenal", "Blood Moon Tycoon", "B
 	end
 end)
 
-section2:Slider("WalkSpeed",16,500,16,function(value)
+section2:Slider("WalkSpeed",16,500,0,function(value)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 end)
 
-section2:Slider("JumpPower",48,300,48,function(value)
+section2:Slider("JumpPower",50,300,0,function(value)
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = value
 end)
 
